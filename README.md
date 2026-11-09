@@ -17,7 +17,7 @@ volumes, healthchecks, automated install and bind-mounted module development.
 
 ## Quick start
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/gajendrasingh8/prestashop-docker-compose.git
 cd prestashop-docker
 cp .env.example .env      # set your own passwords
 docker compose up -d
