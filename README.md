@@ -18,7 +18,7 @@ volumes, healthchecks, automated install and bind-mounted module development.
 ## Quick start
 ```bash
 git clone https://github.com/gajendrasingh8/prestashop-docker-compose.git
-cd prestashop-docker
+cd prestashop-docker-compose
 cp .env.example .env      # set your own passwords
 docker compose up -d
 docker compose logs -f prestashop   # wait for install to finish (3-5 min)

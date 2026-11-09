@@ -33,6 +33,7 @@ services:
       ADMIN_PASSWD: ${ADMIN_PASSWD}
       PS_INSTALL_AUTO: 1
       PS_FOLDER_ADMIN: admin-demo
+      PS_DOMAIN: localhost:8080
       PS_FOLDER_INSTALL: install-done
       PS_LANGUAGE: en
       PS_COUNTRY: IN
